@@ -6,7 +6,16 @@ import java.util.Random;
  * Tigers exhibit behavior to infect, hop, or turn left based on
  * their surroundings. They also change colors every three moves.
  */
+
+/**
+ * OOP: Inheritance
+ * Inherit objects, properties and behaviours from Critter class
+ */
 public class Tiger extends Critter {
+    /**
+     * OOP: Encapsulation
+     * To hide internal state of the tiger and provides controlled access to it
+     */
     private int colorPhase; // Current color phase of the Tiger
 
     /**
@@ -23,6 +32,10 @@ public class Tiger extends Critter {
      * based on the current color phase.
      *
      * @return Color representing the color of the Tiger.
+     */
+    /**
+     * OOP: Polymorphism
+     * Tiger class inherit this getColor, toString and getMove object from Critter class and modify its behaviours to suits Tiger class
      */
     public Color getColor() {
         switch (colorPhase) {
@@ -53,6 +66,11 @@ public class Tiger extends Critter {
      *
      * @param info information about the Tiger's current environment
      * @return the action to take (INFECT, HOP, LEFT, RIGHT)
+     */
+    /**
+     *
+     * OOP: Abstraction
+     * To hiding complex implementation details and showing only essential features of getMove objects
      */
     public Action getMove(CritterInfo info) {
         if (info.getFront() == Neighbor.OTHER) {
