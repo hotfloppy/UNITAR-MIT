@@ -1,0 +1,40 @@
+$white: #ffffff;
+
+html {
+    box-sizing: border-box;
+    font-size: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 5px;
+    line-height: 1.2;
+    font-family: $comfortaa;
+    // color: $white;
+    // background-color: #333333;
+
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#398235+0,8ab66b+56,c9de96+100 */
+    background: #398235;
+    /* Old browsers */
+    background: -moz-linear-gradient(45deg, #398235 0%, #8ab66b 56%, #c9de96 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(45deg, #398235 0%, #8ab66b 56%, #c9de96 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(45deg, #398235 0%, #8ab66b 56%, #c9de96 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#398235', endColorstr='#c9de96', GradientType=1);
+    /* IE6-9 fallback on horizontal gradient */
+
+
+    h1 {
+        font-family: $comfortaa;
+        font-size: 2.1rem;
+        font-weight: 700;
+        //color: $white;
+        transition: all 300ms ease;
+    }
+
+    .customer {
+        font-family: $comfortaa;
+    }
+}

@@ -1,0 +1,181 @@
+form {
+    border-radius: 1rem;
+    border: 1px solid #CCC;
+    margin: 0 auto;
+    max-width: 16rem;
+    /* padding: 2rem 2.5rem 1.5rem 2.5rem; */
+    padding: 0.85rem;
+}
+
+form.button {
+    border-radius: 1rem;
+    //border: 1px solid #CCC;
+    border: 0px;
+    //margin: 0 auto;
+    //max-width: 100%;
+    /* padding: 2rem 2.5rem 1.5rem 2.5rem; */
+    padding: 0.05rem;
+}
+
+form.noborder {
+    border-radius: 1rem;
+    //border: 1px solid #CCC;
+    border: 0px;
+    //margin: 0 auto;
+    max-width: 100%;
+    /* padding: 2rem 2.5rem 1.5rem 2.5rem; */
+    padding: 0.05rem;
+    
+}
+
+input {
+    background-color: #FAFAFA;
+    border-radius: 0.4rem;
+    border: 1px solid #CCC;
+    box-shadow: inset 0 1px 3px #DDD;
+    box-sizing: border-box;
+    display: block;
+    font-size: 1em;
+    padding: 0.4em 0.6em;
+    /* vertical-align: middle; */
+    width: 20%;
+    margin: 8x 0;
+}
+
+input:hover,
+input:focus {
+    background-color: #FFF;
+    border-color: #51A7E8;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.075) inset, 0 0 5px rgba(81, 167, 232, 0.5);
+    outline: 0;
+}
+
+label {
+    color: #666;
+    display: block;
+    font-size: 0.9em;
+    font-weight: bold;
+    margin: 1em 0 0.25em 0;
+}
+
+button {
+    background-color: #60B044;
+    background-image: linear-gradient(#8ADD6D, #60B044);
+    border-radius: 0.5rem;
+    border: 1px solid #5CA941;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: block;
+    font-size: 0.9em;
+    font-weight: bold;
+    margin: 1.2rem 0 0.5em 0;
+    padding: 0.5rem 0.7rem;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.3);
+    user-select: none;
+    /* vertical-align: middle; */
+    white-space: nowrap;
+}
+
+button:focus,
+button:hover {
+    background-color: #569E3D;
+    background-image: linear-gradient(#79D858, #569E3D);
+    border-color: #4A993E;
+}
+
+a.button {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+
+    text-decoration: none;
+    color: initial;
+
+    background-color: #60B044;
+    background-image: linear-gradient(#8ADD6D, #60B044);
+    border-radius: 0.5rem;
+    border: 1px solid #5CA941;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: block;
+    font-size: 0.9em;
+    font-weight: bold;
+    margin: 1.2rem 0 0.5em 0;
+    padding: 0.5rem 0.7rem;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.3);
+    user-select: none;
+    /* vertical-align: middle; */
+    white-space: nowrap;
+
+}
+
+a.button:focus,
+a.button:hover {
+    background-color: #569E3D;
+    background-image: linear-gradient(#79D858, #569E3D);
+    border-color: #4A993E;
+}
+
+input.button {
+    background-color: #60B044;
+    background-image: linear-gradient(#8ADD6D, #60B044);
+    border-radius: 0.5rem;
+    border: 1px solid #5CA941;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: block;
+    font-size: 0.9em;
+    font-weight: bold;
+    margin: 1.2rem 0 0.5em 0;
+    padding: 0.5rem 0.7rem;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.3);
+    user-select: none;
+    /* vertical-align: middle; */
+    white-space: nowrap;
+    font-family: $comfortaa;
+}
+
+input.button:focus,
+input.button:hover {
+    background-color: #569E3D;
+    background-image: linear-gradient(#79D858, #569E3D);
+    border-color: #4A993E;
+}
+
+input.buttondelete {
+    background-color: #b04444;
+    background-image: linear-gradient(#dd6d6d, #b04444);
+    border-radius: 0.5rem;
+    border: 1px solid #a94141;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: block;
+    font-size: 0.9em;
+    font-weight: bold;
+    margin: 1.2rem 0 0.5em 0;
+    padding: 0.5rem 0.7rem;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.3);
+    user-select: none;
+    /* vertical-align: middle; */
+    white-space: nowrap;
+    font-family: $comfortaa;
+}
+
+input.buttondelete:hover,
+input.buttondelete:focus {
+    background-color: #9e3d3d;
+    background-image: linear-gradient(#d85858, #9e3d3d);
+    border-color: #993e3e;
+}

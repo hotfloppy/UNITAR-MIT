@@ -1,0 +1,15 @@
+header {
+    display: flex;
+    justify-content: center;
+
+    .logo {
+        position: relative;
+        display: block;
+        //width: 8.5rem;
+        width: 200px;
+        height: 200px;
+        background-image: url("../../img/logo.png");
+        background-size: auto;
+    }
+
+}
