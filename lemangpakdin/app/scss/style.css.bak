@@ -1,0 +1,252 @@
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+header .logo {
+  position: relative;
+  display: block;
+  width: 200px;
+  height: 200px;
+  background-image: url("../../img/logo.png");
+  background-size: auto;
+}
+
+form {
+  border-radius: 1rem;
+  border: 1px solid #CCC;
+  margin: 0 auto;
+  max-width: 16rem;
+  /* padding: 2rem 2.5rem 1.5rem 2.5rem; */
+  padding: 0.85rem;
+}
+
+form.button {
+  border-radius: 1rem;
+  border: 0px;
+  /* padding: 2rem 2.5rem 1.5rem 2.5rem; */
+  padding: 0.05rem;
+}
+
+form.noborder {
+  border-radius: 1rem;
+  border: 0px;
+  max-width: 100%;
+  /* padding: 2rem 2.5rem 1.5rem 2.5rem; */
+  padding: 0.05rem;
+}
+
+input {
+  background-color: #FAFAFA;
+  border-radius: 0.4rem;
+  border: 1px solid #CCC;
+  -webkit-box-shadow: inset 0 1px 3px #DDD;
+          box-shadow: inset 0 1px 3px #DDD;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: block;
+  font-size: 1em;
+  padding: 0.4em 0.6em;
+  /* vertical-align: middle; */
+  width: 20%;
+  margin: 8x 0;
+}
+
+input:hover,
+input:focus {
+  background-color: #FFF;
+  border-color: #51A7E8;
+  -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.075) inset, 0 0 5px rgba(81, 167, 232, 0.5);
+          box-shadow: 0 1px 2px rgba(0, 0, 0, 0.075) inset, 0 0 5px rgba(81, 167, 232, 0.5);
+  outline: 0;
+}
+
+label {
+  color: #666;
+  display: block;
+  font-size: 0.9em;
+  font-weight: bold;
+  margin: 1em 0 0.25em 0;
+}
+
+button {
+  background-color: #60B044;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#8ADD6D), to(#60B044));
+  background-image: linear-gradient(#8ADD6D, #60B044);
+  border-radius: 0.5rem;
+  border: 1px solid #5CA941;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: block;
+  font-size: 0.9em;
+  font-weight: bold;
+  margin: 1.2rem 0 0.5em 0;
+  padding: 0.5rem 0.7rem;
+  text-align: center;
+  text-decoration: none;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.3);
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  /* vertical-align: middle; */
+  white-space: nowrap;
+}
+
+button:focus,
+button:hover {
+  background-color: #569E3D;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#79D858), to(#569E3D));
+  background-image: linear-gradient(#79D858, #569E3D);
+  border-color: #4A993E;
+}
+
+a.button {
+  -webkit-appearance: button;
+  -moz-appearance: button;
+  appearance: button;
+  text-decoration: none;
+  color: initial;
+  background-color: #60B044;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#8ADD6D), to(#60B044));
+  background-image: linear-gradient(#8ADD6D, #60B044);
+  border-radius: 0.5rem;
+  border: 1px solid #5CA941;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: block;
+  font-size: 0.9em;
+  font-weight: bold;
+  margin: 1.2rem 0 0.5em 0;
+  padding: 0.5rem 0.7rem;
+  text-align: center;
+  text-decoration: none;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.3);
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  /* vertical-align: middle; */
+  white-space: nowrap;
+}
+
+a.button:focus,
+a.button:hover {
+  background-color: #569E3D;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#79D858), to(#569E3D));
+  background-image: linear-gradient(#79D858, #569E3D);
+  border-color: #4A993E;
+}
+
+input.button {
+  background-color: #60B044;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#8ADD6D), to(#60B044));
+  background-image: linear-gradient(#8ADD6D, #60B044);
+  border-radius: 0.5rem;
+  border: 1px solid #5CA941;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: block;
+  font-size: 0.9em;
+  font-weight: bold;
+  margin: 1.2rem 0 0.5em 0;
+  padding: 0.5rem 0.7rem;
+  text-align: center;
+  text-decoration: none;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.3);
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  /* vertical-align: middle; */
+  white-space: nowrap;
+  font-family: "Comfortaa", cursive;
+}
+
+input.button:focus,
+input.button:hover {
+  background-color: #569E3D;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#79D858), to(#569E3D));
+  background-image: linear-gradient(#79D858, #569E3D);
+  border-color: #4A993E;
+}
+
+input.buttondelete {
+  background-color: #b04444;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#dd6d6d), to(#b04444));
+  background-image: linear-gradient(#dd6d6d, #b04444);
+  border-radius: 0.5rem;
+  border: 1px solid #a94141;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: block;
+  font-size: 0.9em;
+  font-weight: bold;
+  margin: 1.2rem 0 0.5em 0;
+  padding: 0.5rem 0.7rem;
+  text-align: center;
+  text-decoration: none;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.3);
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  /* vertical-align: middle; */
+  white-space: nowrap;
+  font-family: "Comfortaa", cursive;
+}
+
+input.buttondelete:hover,
+input.buttondelete:focus {
+  background-color: #9e3d3d;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#d85858), to(#9e3d3d));
+  background-image: linear-gradient(#d85858, #9e3d3d);
+  border-color: #993e3e;
+}
+
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-size: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 5px;
+  line-height: 1.2;
+  font-family: "Comfortaa", cursive;
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#398235+0,8ab66b+56,c9de96+100 */
+  background: #398235;
+  /* Old browsers */
+  /* FF3.6-15 */
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(45deg, #398235 0%, #8ab66b 56%, #c9de96 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#398235', endColorstr='#c9de96', GradientType=1);
+  /* IE6-9 fallback on horizontal gradient */
+}
+
+body h1 {
+  font-family: "Comfortaa", cursive;
+  font-size: 2.1rem;
+  font-weight: 700;
+  -webkit-transition: all 300ms ease;
+  transition: all 300ms ease;
+}
+
+body .customer {
+  font-family: "Comfortaa", cursive;
+}
+/*# sourceMappingURL=style.css.map */
